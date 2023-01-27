@@ -1,11 +1,15 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 
 .img-fluid {
     max-width: 100%;
-    height: auto;
+}
+
+.banner {
+    margin: 20px;
+    padding: 20px;
 }
 
 .banner h1 {
@@ -14,23 +18,27 @@ body {
     line-height: 56px;
     color: rgb(255, 255, 255);
     margin: 0px 0px 10px;
+    margin-left: 40px;
 }
 
 .banner h2 {
     color: rgb(255, 255, 255);
+    margin-left: 40px;
 }
 
-body {
-    margin: 0px;
-}
-
-.container {
+.header_section {
     background-color: rgb(214, 60, 40);
 }
 
 .logo {
     width: 50%;
-    color: #2284d9
+    color: #2284d9;
+    margin-left: 40px;
+}
+
+.logo:hover {
+    color: #2242ab;
+    text-decoration: none;
 }
 
 .navbar {
@@ -55,5 +63,67 @@ body {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
+    color: #2242ab;
+}
+
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: 200px;
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.products .box h4 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.products .box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0
+}
+
+.products .box h4 a {
+    color: #2284d9;
+}
+
+.products .box:hover h4 a {
+    color: #2242ab;
+    text-decoration: none;
+}
+
+.products .box:hover {
+    transform: translateY(-10px);
+}
+
+.section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     color: #2284d9;
 }
