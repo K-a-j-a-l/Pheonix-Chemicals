@@ -1,6 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
+    background-color: #DDDDDD;
 }
 
 .img-fluid {
@@ -26,13 +27,9 @@ body {
     margin-left: 40px;
 }
 
-.header_section {
-    background-color: rgb(214, 60, 40);
-}
-
 .logo {
     width: 60%;
-    color: #2284d9;
+    color: whitesmoke;
     margin-left: 40px;
     text-decoration: none;
 }
@@ -45,6 +42,7 @@ body {
 .navbar {
     padding: 1rem 1rem;
     position: relative;
+    background-color: #CF0A0A;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
