@@ -1,7 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
-    background-color: #DDDDDD;
+    color: whitesmoke;
+    background-color: #383B3F;
 }
 
 .img-fluid {
@@ -17,13 +17,13 @@ body {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     margin: 0px 0px 10px;
     margin-left: 40px;
 }
 
 .banner h2 {
-    color: rgb(255, 255, 255);
+    color: #CF0A0A;
     margin-left: 40px;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar {
-    padding: 1rem 1rem;
+        
     position: relative;
     background-color: #CF0A0A;
 }
@@ -57,7 +57,7 @@ body {
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show,
 .navbar-nav .show>.nav-link {
-    color: #154ae8;
+    color: whitesmoke;
 }
 
 .navbar-nav .nav-link:focus,
@@ -96,12 +96,12 @@ body {
 }
 
 .products .box h4 a {
-    color: #2284d9;
+    color: #CF0A0A;
     text-decoration: none;
 }
 
 .products .box:hover h4 a {
-    color: #2242ab;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    color: #2284d9;
+    color: whitesmoke;
 }
 
 .section p {
@@ -148,20 +148,20 @@ body {
     line-height: 1;
     text-transform: uppercase;
     font-weight: 600;
-    color: #2284d9;
+    color: #CF0A0A;
 }
 
 #footer .footer-top .footer-contact p {
     font-size: 14px;
     line-height: 24px;
     font-family: "Jost", sans-serif;
-    color: #2284d9;
+    color: whitesmoke;
 }
 
 #footer .footer-top h4 {
     font-size: 16px;
     font-weight: bold;
-    color: #2284d9;
+    color: #CF0A0A;
     position: relative;
     padding-bottom: 12px;
 }
@@ -178,7 +178,7 @@ body {
 
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #2284d9;
+    color: whitesmoke;
     font-size: 18px;
     line-height: 1;
 }
@@ -194,7 +194,7 @@ body {
 }
 
 #footer .footer-top .footer-links ul a {
-    color: #2284d9;
+    color: whitesmoke;
     display: inline-block;
     line-height: 1;
     text-decoration: none;
@@ -202,13 +202,13 @@ body {
 
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #2242ab;
+    color: whitesmoke;
 }
 
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #2284d9;
+    background: whitesmoke;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -222,7 +222,7 @@ body {
 }
 
 #footer .footer-top .social-links a:hover {
-    background-color: #2242ab;
+    background-color: #CF0A0A;
     color: #fff;
     text-decoration: none;
 }
@@ -235,8 +235,8 @@ body {
 
 .contact .info,
 .contact .contact-form {
-    border-top: 3px solid #2284d9;
-    border-bottom: 3px solid #2284d9;
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
     padding: 30px;
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
@@ -244,7 +244,7 @@ body {
 
 .contact .info i {
     font-size: 20px;
-    color: #2284d9;
+    color: whitesmoke;
     float: left;
     width: 40px;
     height: 40px;
@@ -259,14 +259,14 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 5px;
-    color: #2284d9;
+    color: whitesmoke;
 }
 
 .contact .info p {
     padding: 0 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #2284d9;
+    color: whitesmoke;
 }
 
 .contact .info .email p {
@@ -276,7 +276,7 @@ body {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background-color: #2242ab;
+    background-color: whitesmoke;
     color: #fff
 }
 
@@ -298,7 +298,7 @@ body {
 
 .contact .contact-form input:focus,
 .contact .contact-form textarea:focus {
-    border-color: #2284d9
+    border-color: whitesmoke
 }
 
 .contact .contact-form input {
@@ -318,14 +318,14 @@ body {
 }
 
 .contact .contact-form button:hover {
-    background: #2242ab;
+    background: whitesmoke;
 }
 
 .details h4 {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 5px;
-    color: #2284d9;
+    color: whitesmoke;
 }
 
 .details ul {
@@ -334,7 +334,7 @@ body {
 
 .details i {
     padding-right: 2px;
-    color: #2284d9;
+    color: whitesmoke;
     font-size: 18px;
     line-height: 1;
 }
@@ -361,9 +361,5 @@ body {
 .details h5 {
     font-size: 12px;
     font-weight: 500;
-    color: #2284d9;
-}
-
-.products-info .info {
-    display: hidden;
+    color: whitesmoke;
 }
