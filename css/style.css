@@ -363,3 +363,7 @@ body {
     font-weight: 500;
     color: #2284d9;
 }
+
+.products-info .info {
+    display: hidden;
+}
