@@ -8,8 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
     <title>Index</title>
 
 </head>
@@ -19,22 +18,20 @@
     <!--header section starts-->
     <div class="header_section">
         <div class="container-one">
-            <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+            <nav class="navbar navbar-expand-lg">
                 <a class="logo" href="index.html">
-                    <h1 >PHEONIX CHEMICALS</h1>
+                    <h1>PHEONIX CHEMICALS</h1>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+               </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="nav navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="About.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="products.html">Products</a>
@@ -74,35 +71,40 @@
         <div class="container">
             <div class="section-title">
                 <h1 style="color: #CF0A0A; text-decoration:overline;">Our Products</h1>
-                <p>We offer a wide range of products for construction chemicals include most reliable products available
-                    for all your needs. </p>
+                <p>We offer a wide range of products for construction chemicals include most reliable products available for all your needs. </p>
             </div>
             <div class="row products">
-                <div class="col-lg-3 col-md-6 align-items-stretch mt-4">
-                    <div class="box d-flex flex-column justify-content-center" data-name="hydro">
-                        <h4><a href="singleproduct.html">HydroSeal</a></h4>
-                        <p>A penetrating chemical with high penetrating and water repellent effect.</p>
-                    </div>
+                <div class="col-lg-3 col-md-6 align-items-stretch mt-5 flex-column">
+                    <a onclick="showDetails()">
+                        <div class="box" data-name="hydro">
+                            <h4>HydroSeal</h4>
+                            <p>A penetrating chemical with high penetrating and water repellent effect.</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 align-items-stretch mt-4 col-md-6">
-                    <div class="box d-flex flex-column justify-content-center" data-name="bond">
-                        <h4><a href="singleproduct.html">PrimeBond+</a></h4>
-                        <p>A cement modifier used for Crack Filling, Anchor & Grout, Waterproofing and Damp Proofing.
-                        </p>
-                    </div>
+                <div class="col-lg-3 align-items-stretch mt-5 col-md-6 flex-column">
+                    <a onclick="showDetails()">
+                        <div class="box" data-name="prime">
+                            <h4>PrimeBond+</h4>
+                            <p>A cement modifier used for Crack Filling, Anchor & Grout, Waterproofing and Damp Proofing.</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 align-items-stretch mt-4 col-md-6">
-                    <div class="box d-flex flex-column justify-content-center" data-name="putop">
-                        <h4><a href="singleproduct.html">PUTopCoat</a></h4>
-                        <p>A hybrid PU & Bituminous chemical used for waterproofing.</p>
-                    </div>
+                <div class="col-lg-3 align-items-stretch mt-5 col-md-6 flex-column">
+                    <a onclick="showDetails()">
+                        <div class="box" data-name="putop">
+                            <h4>PUTopCoat</h4>
+                            <p>A hybrid PU & Bituminous chemical used for waterproofing.</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-3 align-items-stretch mt-4 col-md-6">
-                    <div class="box d-flex flex-column justify-content-center" data-name="white">
-                        <h4><a href="singleproduct.html">Elastowhite</a></h4>
-                        <p>An acrylic heatproofing chemical which gives cooling effect due to the reflective properties.
-                        </p>
-                    </div>
+                <div class="col-lg-3 align-items-stretch mt-5 col-md-6 flex-column">
+                    <a onclick="showDetails()">
+                        <div class="box" data-name="white">
+                            <h4>Elastowhite</h4>
+                            <p>An acrylic heatproofing chemical which gives cooling effect due to the reflective properties. </p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="row more">
@@ -162,14 +164,14 @@
 
     <!-- Designed Section -->
     <div class="row Design-section">
-            <h1>© Copyright<span style="color:whitesmoke;"> Phenix Chemical</span>. All Rights Reserved</h1>
-            <h1>
-                Designed by<span style="color:whitesmoke;"> GRANDEUR NET</span>
-            </h1>
-        
+        <h1>© Copyright<span style="color:whitesmoke;"> Phenix Chemical</span>. All Rights Reserved</h1>
+        <h1>
+            Designed by<span style="color:whitesmoke;"> GRANDEUR NET</span>
+        </h1>
+
     </div>
     <!-- design section send -->
-    <script async src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

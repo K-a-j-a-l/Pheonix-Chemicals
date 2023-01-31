@@ -1,15 +1,9 @@
-let productinfo = document.querySelector('.products-info');
-let productpage = productinfo.querySelectorAll('.info');
-document.querySelectorAll('.section .product-container .products .box .name').forEach(name => {
-    name.onclick = () => {
-        productinfo.style.display = 'flex';
-        let name = name.getAttribute('data-name');
-        productpage.forEach(info => {
-            let target = info.getAttribute('data-target');
-            if (name == target) {
-                console.log("done");
-                info.classList.add('active');
-            }
-        });
-    };
-});
+function showDetails() {
+    let name = document.getElementsByClassName("box");
+    for (var i = 0; i < name.length; i++) {
+        let product_name = name[i].getAttribute("data-name");
+        if (product_name == "hydro") {
+            location.href = "singleproduct.html";
+        }
+    }
+}
