@@ -1,9 +1,16 @@
 function showDetails() {
-    let name = document.getElementsByClassName("box");
-    for (var i = 0; i < name.length; i++) {
-        let product_name = name[i].getAttribute("data-name");
-        if (product_name == "hydro") {
-            location.href = "singleproduct.html";
+    let names = document.getElementsByClassName("box");
+    let target = document.getElementsByClassName("products-info product");
+    console.log(target);
+    for (var i = 0; i < names.length; i++) {
+        let product_name = names[i].getAttribute("data-name");
+        console.log(product_name);
+        for (var j = 0; j < target.length; j++) {
+            let target_name = target[j].getAttribute("data");
+            console.log(target_name);
+            if (product_name == target_name) {
+                target_name.style.display = 'block';
+            }
         }
     }
 }
