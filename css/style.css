@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-    width: 50%;
+    width: 55%;
     color: whitesmoke;
     margin-left: 40px;
     text-decoration: none;
@@ -92,7 +92,7 @@ body {
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 24px;
-    color: #2284d9;
+    color: #cf0a0a;
 }
 
 .products .box h4:hover {
@@ -134,7 +134,6 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    color: 32323B;
 }
 
 .section p {
@@ -187,7 +186,7 @@ body {
 
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #32323B;
+    color: #cf0a0a;
     font-size: 18px;
     line-height: 1;
 }
@@ -211,14 +210,14 @@ body {
 
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: whitesmoke;
+    color: #2242ab;
 }
 
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
     background: whitesmoke;
-    color: #fff;
+    color: #cf0a0a;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -231,9 +230,12 @@ body {
 }
 
 #footer .footer-top .social-links a:hover {
-    background-color: #cf0a0a;
-    color: #fff;
+    color: #2242ab;
     text-decoration: none;
+}
+
+#footer .footer-top .footer-contact i {
+    color: #cf0a0a;
 }
 
 #footer .footer-bottom {
@@ -244,7 +246,7 @@ body {
 
 .contact .info,
 .contact .contact-form {
-    border-top: 3px solid whitesmoke;
+    border-top: 3px solid rgb(21, 20, 20);
     border-bottom: 3px solid whitesmoke;
     padding: 30px;
     width: 100%;
@@ -253,7 +255,7 @@ body {
 
 .contact .info i {
     font-size: 20px;
-    color: whitesmoke;
+    color: #cf0a0a;
     float: left;
     width: 40px;
     height: 40px;
@@ -268,14 +270,14 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 5px;
-    color: whitesmoke;
+    color: #cf0a0a;
 }
 
 .contact .info p {
     padding: 0 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: whitesmoke;
+    color: #cf0a0a;
 }
 
 .contact .info .email p {
@@ -286,7 +288,7 @@ body {
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
     background-color: whitesmoke;
-    color: #fff;
+    color: #2242ab;
 }
 
 .contact .contact-form .form-group {
@@ -307,7 +309,7 @@ body {
 
 .contact .contact-form input:focus,
 .contact .contact-form textarea:focus {
-    border-color: whitesmoke;
+    border-color: #cf0a0a;
 }
 
 .contact .contact-form input {
@@ -318,7 +320,8 @@ body {
     padding: 10px 12px;
 }
 
-.contact .contact-form button {
+
+/*.contact .contact-form button {
     background: #2284d9;
     border: 0;
     padding: 12px 34px;
@@ -327,8 +330,9 @@ body {
 }
 
 .contact .contact-form button:hover {
-    background: whitesmoke;
+    background: #cf0a0a;
 }
+*/
 
 .details h4 {
     font-size: 20px;
