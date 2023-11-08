@@ -1,0 +1,1 @@
+A website developed as freelancing project for Pheonix Chemicals, a firm which delivers high-quality paints and solvents. And Here we have contact, about, product catalog section and the messages through contact forms can be accessed by the firm.
